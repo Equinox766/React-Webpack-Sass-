@@ -1,13 +1,13 @@
 import React, { Fragment } from 'react';
 import Header from "./components/Header";
 import Characters from './components/Characters';
-import './main.sass';
+import './main.scss';
 import './components/Header.css';
 const App = () => {
     return (
         <Fragment>
             <Header
-                title="Rick and Morty API"
+                title="Rick and Morty API by Equinox"
             />
             <Characters />
         </Fragment>
